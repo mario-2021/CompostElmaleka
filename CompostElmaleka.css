@@ -582,13 +582,14 @@ body {
 @media (max-width: 767px) {
   .nav-bar .links {
     margin-top: 5px;
-    margin-left: 30px;
+    margin-left: 60px;
     padding: 0;
   }
 }
 @media (max-width: 767px) and (max-width: 767px) {
   .nav-bar .links li a {
     color: black;
+    font-size: 0.75rem;
   }
 }
 
@@ -617,11 +618,11 @@ body {
 }
 @media (max-width: 991px) {
   .ourservices .newSerTable {
-    padding-top: 20px;
-    font-size: 1rem;
-    margin-left: 4%;
-    width: 300px;
-    height: 60px;
+    padding-top: 10px;
+    font-size: 0.75rem;
+    margin-left: 20%;
+    width: 200px;
+    height: 50px;
   }
 }
 @media (max-width: 991px) {
@@ -629,6 +630,12 @@ body {
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
+  }
+}
+@media (max-width: 991px) {
+  .ourservices .serviceCont .serviceIcon {
+    height: 30px;
+    margin-left: 45%;
   }
 }
 @media (max-width: 991px) {
@@ -657,11 +664,11 @@ body {
 
 @media (max-width: 991px) {
   .gallery h2 {
-    padding-top: 13px;
-    font-size: 1.25rem;
+    padding-top: 15px;
+    font-size: 0.75rem;
     margin-left: 25%;
-    width: 240px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
   }
 }
 @media (max-width: 991px) {
@@ -713,9 +720,11 @@ body {
 }
 @media (max-width: 991px) {
   .slideshow-container h2 {
+    padding-top: 15px;
+    font-size: 0.75rem;
     margin-left: 25%;
-    width: 240px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
   }
 }
 @media (max-width: 991px) {
@@ -742,6 +751,31 @@ body {
 @media (max-width: 991px) {
   .copyright {
     margin-top: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  h3 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 991px) {
+  p {
+    font-size: 0.5rem !important;
+    line-height: 1.5rem !important;
+    text-align: end;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer {
+    margin-top: 0;
+  }
+}
+@media (max-width: 991px) {
+  .footer .contact {
+    font-size: 0.75rem;
   }
 }
 

@@ -129,12 +129,13 @@
     .links{
         @media (max-width: $maxSmall) {
             margin-top: 5px;
-            margin-left: 30px;
+            margin-left: 60px;
             padding: 0;
             li {
                 a {
                     @media (max-width: $maxSmall) {
                         color: black;
+                        font-size: .75rem;
                     }
                 }
             }
@@ -171,16 +172,22 @@
     }
     .newSerTable {
         @media (max-width: $maxMedium) {
-            padding-top: 20px;
-            font-size: 1rem;
-            margin-left: 4%;
-            width: 300px;
-            height: 60px;
+            padding-top: 10px;
+            font-size: 0.75rem;
+            margin-left: 20%;
+            width: 200px;
+            height: 50px;
         }
     }
     .serviceCont {
         @media (max-width: $maxMedium) {
             height: max-content;
+        }
+        .serviceIcon {
+            @media (max-width: $maxMedium) {
+                height: 30px;
+                margin-left: 45%;
+            }
         }
         .fotoHeight1,
         .fotoHeight1EN {
@@ -212,11 +219,11 @@
 .gallery {
     h2 {
         @media (max-width: $maxMedium) {
-            padding-top: 13px;
-            font-size: 1.25rem;
+            padding-top: 15px;
+            font-size: 0.75rem;
             margin-left: 25%;
-            width: 240px;
-            height: 60px;
+            width: 200px;
+            height: 50px;
         }
     }
     .EN {
@@ -270,9 +277,11 @@
     }
     h2 {
         @media (max-width: $maxMedium) {
+            padding-top: 15px;
+            font-size: 0.75rem;
             margin-left: 25%;
-            width: 240px;
-            height: 60px;
+            width: 200px;
+            height: 50px;
         }
     }
     .EN {
@@ -302,5 +311,30 @@
 .copyright {
     @media (max-width: $maxMedium) {
         margin-top: 100px;
+    }
+}
+
+h3 {
+    @media (max-width: $maxMedium) {
+        font-size: .75rem;
+    }
+}
+
+p {
+    @media (max-width: $maxMedium) {
+        font-size: .5rem !important;
+        line-height: 1.5rem !important;
+        text-align: end;
+    }
+}
+
+.footer {
+    @media (max-width: $maxMedium) {
+        margin-top: 0;
+    }
+    .contact {
+        @media (max-width: $maxMedium) {
+            font-size: .75rem;
+        }
     }
 }
