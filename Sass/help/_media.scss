@@ -173,7 +173,7 @@
     .newSerTable {
         @media (max-width: $maxMedium) {
             padding-top: 10px;
-            font-size: 0.75rem;
+            // font-size: 0.75rem;
             margin-left: 20%;
             width: 200px;
             height: 50px;
@@ -219,8 +219,7 @@
 .gallery {
     h2 {
         @media (max-width: $maxMedium) {
-            padding-top: 15px;
-            font-size: 0.75rem;
+            padding-top: 5px;
             margin-left: 25%;
             width: 200px;
             height: 50px;
@@ -231,7 +230,7 @@
             width: 275px !important;
             height: 50px !important;
             padding-top: 15px !important;
-            font-size: .75rem !important;
+            font-size: 1rem !important;
             margin-left: 35px !important;
         }
     }
@@ -277,8 +276,7 @@
     }
     h2 {
         @media (max-width: $maxMedium) {
-            padding-top: 15px;
-            font-size: 0.75rem;
+            padding-top: 5px;
             margin-left: 25%;
             width: 200px;
             height: 50px;
@@ -289,7 +287,7 @@
             width: 275px !important;
             height: 50px !important;
             padding-top: 15px !important;
-            font-size: .75rem !important;
+            font-size: 1rem !important;
             margin-left: 30px !important;
         }
     }
@@ -316,13 +314,13 @@
 
 h3 {
     @media (max-width: $maxMedium) {
-        font-size: .75rem;
+        font-size: 1rem;
     }
 }
 
 p {
     @media (max-width: $maxMedium) {
-        font-size: .5rem !important;
+        font-size: .9rem !important;
         line-height: 1.5rem !important;
         text-align: end;
     }
@@ -334,7 +332,7 @@ p {
     }
     .contact {
         @media (max-width: $maxMedium) {
-            font-size: .75rem;
+            // font-size: .75rem;
         }
     }
 }
