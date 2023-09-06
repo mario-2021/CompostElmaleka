@@ -213,6 +213,12 @@
             padding-bottom: 0;
         }
     }
+    .imageDivNew{
+        @media (max-width: $maxMedium) {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
 }
 
 
@@ -237,7 +243,7 @@
     .images-box {
         .slider-container {
             @media (max-width: $maxMedium) {
-                margin: 10px;
+                margin: auto;
             }
             .slider-image {
                 @media (max-width: $maxMedium) {
@@ -270,7 +276,7 @@
 
 .slideshow-container {
     @media (max-width: $maxMedium) {
-        margin: 0;
+        margin: auto;
         max-width: 380px;
         padding-left: 10px;
     }
@@ -292,6 +298,7 @@
         }
     }
     .mySlides {
+        margin: auto;
         video {
             @media (max-width: $maxMedium) {
                 width: 300px;
@@ -301,7 +308,12 @@
     }
     .prev {
         @media (max-width: $maxMedium) {
-            left: 50px;
+            left: 25px;
+        }
+    }
+    .next {
+        @media (max-width: $maxMedium) {
+            right: 15px;
         }
     }
 }
