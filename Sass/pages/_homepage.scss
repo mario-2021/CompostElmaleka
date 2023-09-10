@@ -567,7 +567,7 @@ body {
     }
     .helpInfo {
         h3 {
-            color: #044750;
+            color: red;
             margin-top: 10px;
         }
         p {
@@ -581,16 +581,16 @@ body {
 }
 
 .footer {
-    background-color: $flatWhite;
+    background-color: rgba(223, 243, 252, 0.5);
     margin-top: 100px;
     .contact {
-        color: $flatBlack;
+        color: red;
         font-size: 1.3rem;
         font-weight: 500;
         line-height: 1.75rem;
     }
     .fotPhone {
-        color: $flatBlack;
+        color: red;
         &:hover {
             color: $flatGreen;
             font-size: 1.8rem;
@@ -598,7 +598,7 @@ body {
         }
     }
     .conEmail {
-        color: $flatBlack;
+        color: red;
         &:hover {
             color: $flatGreen;
             font-size: 1.8rem;

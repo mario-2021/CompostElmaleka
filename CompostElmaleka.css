@@ -476,7 +476,7 @@ body {
   height: 500px;
 }
 .help .helpInfo h3 {
-  color: #044750;
+  color: red;
   margin-top: 10px;
 }
 .help .helpInfo p {
@@ -488,17 +488,17 @@ body {
 }
 
 .footer {
-  background-color: #fff;
+  background-color: rgba(223, 243, 252, 0.5);
   margin-top: 100px;
 }
 .footer .contact {
-  color: black;
+  color: red;
   font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.75rem;
 }
 .footer .fotPhone {
-  color: black;
+  color: red;
 }
 .footer .fotPhone:hover {
   color: #58B19F;
@@ -506,7 +506,7 @@ body {
   font-weight: bolder;
 }
 .footer .conEmail {
-  color: black;
+  color: red;
 }
 .footer .conEmail:hover {
   color: #58B19F;
@@ -569,7 +569,7 @@ body {
 }
 
 .about .about-head {
-  color: #044750;
+  color: red;
 }
 .about .about-info {
   color: #044750;
