@@ -40,7 +40,7 @@ body {
 
 .nav-bar {
     // background-color: #dff3fc;
-    background: linear-gradient(to right, rgb(138 32 168), rgb(255 255 255));
+    background: linear-gradient(to right, #f6e88f, rgb(255 255 255));
     .navbar-brand {
         margin-left: 90%;
         img {
@@ -58,7 +58,7 @@ body {
             }
             a {
             // color: #323d96;
-            color: white;
+            color: black;
             }
         }
         li.active a,

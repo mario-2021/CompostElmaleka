@@ -9,8 +9,8 @@ body {
 }
 
 .nav-bar {
-  background: -webkit-gradient(linear, left top, right top, from(rgb(138, 32, 168)), to(rgb(255, 255, 255)));
-  background: linear-gradient(to right, rgb(138, 32, 168), rgb(255, 255, 255));
+  background: -webkit-gradient(linear, left top, right top, from(#f6e88f), to(rgb(255, 255, 255)));
+  background: linear-gradient(to right, #f6e88f, rgb(255, 255, 255));
 }
 .nav-bar .navbar-brand {
   margin-left: 90%;
@@ -30,7 +30,7 @@ body {
   border-bottom: 3px solid #121ef9;
 }
 .nav-bar .links li a {
-  color: white;
+  color: black;
 }
 .nav-bar .links li.active a,
 .nav-bar .links li a:hover {
