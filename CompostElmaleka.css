@@ -492,13 +492,16 @@ body {
   margin-top: 100px;
 }
 .footer .contact {
-  color: red;
+  color: blue;
   font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.75rem;
 }
-.footer .fotPhone {
+.footer .contact .contactColor {
   color: red;
+}
+.footer .fotPhone {
+  color: blue;
 }
 .footer .fotPhone:hover {
   color: #58B19F;
@@ -506,7 +509,7 @@ body {
   font-weight: bolder;
 }
 .footer .conEmail {
-  color: red;
+  color: blue;
 }
 .footer .conEmail:hover {
   color: #58B19F;

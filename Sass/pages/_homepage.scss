@@ -584,13 +584,16 @@ body {
     background-color: rgba(223, 243, 252, 0.5);
     margin-top: 100px;
     .contact {
-        color: red;
+        color: blue;
         font-size: 1.3rem;
         font-weight: 500;
         line-height: 1.75rem;
+        .contactColor {
+            color: red;
+        }
     }
     .fotPhone {
-        color: red;
+        color: blue;
         &:hover {
             color: $flatGreen;
             font-size: 1.8rem;
@@ -598,7 +601,7 @@ body {
         }
     }
     .conEmail {
-        color: red;
+        color: blue;
         &:hover {
             color: $flatGreen;
             font-size: 1.8rem;
