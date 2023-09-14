@@ -346,5 +346,32 @@ p {
         @media (max-width: $maxMedium) {
             // font-size: .75rem;
         }
+        .newFont {
+            @media (max-width: $maxMedium) {
+                font-size: 10px;
+            }
+        }
+        .contactColor {
+            @media (max-width: $maxMedium) {
+                font-size: 13px;
+            }
+        }
+        .conEmail {
+            @media (max-width: $maxMedium) {
+                font-size: 15px;
+            }
+        }
+        .widthSmall {
+            @media (max-width: $maxMedium) {
+                flex: 0 0 auto;
+                width: 20%;
+            }
+        }
+        .widthSmallSubject {
+            @media (max-width: $maxMedium) {
+                flex: 0 0 auto;
+                width: 80%;
+            }
+        }
     }
 }

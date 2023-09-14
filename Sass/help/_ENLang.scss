@@ -90,3 +90,22 @@
         padding-top: 15px !important;
     }
 }
+
+.footer {
+    .container {
+        .contact {
+            .widthSmallEN {
+                @media (max-width: $maxMedium) {
+                    flex: 0 0 auto;
+                    width: 30%;
+                }
+            }
+            .widthSmallSubjectEN {
+                @media (max-width: $maxMedium) {
+                    flex: 0 0 auto;
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
