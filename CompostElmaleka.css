@@ -15,6 +15,12 @@ body {
 .nav-bar .navbar-brand {
   margin-left: 90%;
 }
+
+.nav-bar .navbar-brandEN {
+  margin-right: 90%;
+  margin-left: 0;
+}
+
 .nav-bar .navbar-brand img {
   height: 100px;
 }
@@ -22,6 +28,12 @@ body {
   margin-top: -75px;
   padding: 10px;
 }
+
+.nav-bar .linksEN {
+  margin-left: 75%;
+  margin-bottom: 0;
+}
+
 .nav-bar .links li {
   display: inline-block;
   border-bottom: 3px solid transparent;
@@ -583,14 +595,13 @@ body {
 
 @media (max-width: 767px) {
   .nav-bar .navbar-brand {
-    margin-left: 35%;
-    margin-top: -15px;
+    margin: auto;
   }
 }
 @media (max-width: 767px) {
   .nav-bar .links {
-    margin-top: 5px;
-    margin-left: 60px;
+    margin: auto;
+    margin-top: 15px;
     padding: 0;
   }
 }
