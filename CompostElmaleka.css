@@ -9,9 +9,22 @@ body {
   clear: both;
 }
 
-.nav-bar {
-  background: linear-gradient(to right, #f6e88f, rgb(255, 255, 255));
+hr {
+  width: 150px;
+  margin: 20px auto;
+  height: 5px !important;
+  color: red;
 }
+
+.nav-bar {
+  /* background: linear-gradient(to right, #f6e88f, rgb(255, 255, 255)); */
+  /* background-image: url("./foto/foto2/Wb1.jpg"); */
+}
+
+.nav-bar .navbarOverlay {
+  background-color: rgb(238 248 253 / 50%) !important;
+}
+
 .nav-bar .navbar-brand {
   margin-left: 90%;
 }
@@ -30,9 +43,11 @@ body {
   border-bottom: 3px solid #121ef9;
 }
 .nav-bar .links li a {
-  color: black;
+  color: #127349;
+  font-size: 20px;
+  font-weight: bold;
 }
-.nav-bar .links li.active a,
+
 .nav-bar .links li a:hover {
   color: #121ef9;
 }
@@ -84,26 +99,31 @@ body {
   padding: 0px 20px;
 }
 
-.prod::after {
-  content: "";
-  width: 240px;
-  height: 3px;
-  background: #1c724c;
-  display: block;
-  margin-left: auto;
-  margin-top: 5px;
-}
-
 .ourservices .container {
   margin-top: 11px;
 }
+
+.newProd {
+  border: 2px solid #036268;
+  border-radius: 15px;
+  padding: 15px 30px;
+  box-shadow: -10px 10px 12px -5px #036268;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: 3rem auto;
+}
+
 .ourservices .serviceCont {
   border: 2px solid #036268;
   padding: 25px 20px;
   box-shadow: -10px 10px 12px -5px #036268;
-  border-radius: 5%;
+  border-radius: 25px;
   margin-left: 3%;
   margin-top: 60px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 .ourservices .serviceCont .serviceIcon {
   height: 50px;
@@ -596,7 +616,7 @@ body {
 }
 
 .about .mainAbout {
-  padding: 10px;
+  padding: 25px 10px;
   border-radius: 30px;
   box-shadow: 0 0 10px 5px #74be50;
   letter-spacing: .75px;
@@ -604,12 +624,13 @@ body {
 
 .about .about-head {
   color: red;
+  font-size: 40px;
 }
 .about .about-info {
   color: #044750;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
-  line-height: 3.5rem;
+  line-height: 4rem;
 }
 
 @media (max-width: 767px) {
@@ -626,9 +647,14 @@ body {
   }
 }
 @media (max-width: 767px) and (max-width: 767px) {
+  .nav-bar .links li {
+    margin-right: .5rem !important;
+  }
+
   .nav-bar .links li a {
     color: black;
     font-size: 0.75rem;
+
   }
 }
 
