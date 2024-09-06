@@ -26,15 +26,29 @@ hr {
 }
 
 .nav-bar .navbar-brand {
-  margin-left: 90%;
+  margin-left: 85%;
 }
+
+.nav-bar .navbar-brandEN {
+  margin-left: 5%;
+}
+
 .nav-bar .navbar-brand img {
   height: 100px;
 }
+
 .nav-bar .links {
+  margin-left: 20px;
   margin-top: -75px;
   padding: 10px;
 }
+
+.nav-bar .linksEN {
+  margin-left: 60%;
+  margin-top: -75px;
+  padding: 10px;
+}
+
 .nav-bar .links li {
   display: inline-block;
   border-bottom: 3px solid transparent;
@@ -49,6 +63,23 @@ hr {
 }
 
 .nav-bar .links li a:hover {
+  color: #121ef9;
+}
+
+.nav-bar .linksEN li {
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+}
+.nav-bar .linksEN li:hover {
+  border-bottom: 3px solid #121ef9;
+}
+.nav-bar .linksEN li a {
+  color: #127349;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-bar .linksEN li a:hover {
   color: #121ef9;
 }
 
@@ -216,8 +247,30 @@ hr {
 .ourservices .imageDivNew {
   width: 60%;
   margin-left: 20%;
-  border: 2px solid #aba798;
-  border-radius: 5px;
+  border: 1px solid rgb(59 186 159 / 50%);
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px 0px rgb(59 186 159 / 50%);
+  margin-top: 25px;
+}
+
+.newCard {
+  border: 5px solid #036268;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.newCard .card-img-top {
+  border: 1px solid #036268;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 
 .Export {
@@ -291,6 +344,7 @@ hr {
   width: 500px;
   height: 250px;
   position: relative;
+  z-index: -99999;
 }
 .gallery .images-box .slider-container .slide-number {
   position: absolute;
@@ -498,8 +552,8 @@ hr {
   cursor: pointer;
   font-family: Arial, Tahoma;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .help .helpFoto img {
@@ -642,7 +696,7 @@ hr {
 @media (max-width: 767px) {
   .nav-bar .links {
     margin-top: 5px;
-    margin-left: 60px;
+    margin-left: 25%;
     padding: 0;
   }
 }
@@ -683,7 +737,7 @@ hr {
 }
 @media (max-width: 991px) {
   .ourservices .newSerTable {
-    padding-top: 10px;
+    padding: 10px 10px 50px;
     margin-left: 20%;
     width: 200px;
     height: 50px;
