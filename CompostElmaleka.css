@@ -37,6 +37,10 @@ hr {
   height: 100px;
 }
 
+.nav-bar .navbar-brandEN img {
+  height: 100px;
+}
+
 .nav-bar .links {
   margin-left: 20px;
   margin-top: -75px;
@@ -692,6 +696,10 @@ hr {
     margin-left: 35%;
     margin-top: -15px;
   }
+  .nav-bar .navbar-brandEN {
+    margin-left: 35%;
+    margin-top: -15px;
+  }
 }
 @media (max-width: 767px) {
   .nav-bar .links {
@@ -699,7 +707,14 @@ hr {
     margin-left: 25%;
     padding: 0;
   }
+
+  .nav-bar .linksEN {
+    margin-top: 5px;
+    margin-left: 25%;
+    padding: 0;
+  }
 }
+
 @media (max-width: 767px) and (max-width: 767px) {
   .nav-bar .links li {
     margin-right: .5rem !important;
@@ -708,7 +723,15 @@ hr {
   .nav-bar .links li a {
     color: black;
     font-size: 0.75rem;
+  }
 
+  .nav-bar .linksEN li {
+    margin-right: .5rem !important;
+  }
+
+  .nav-bar .linksEN li a {
+    color: black;
+    font-size: 0.75rem;
   }
 }
 
