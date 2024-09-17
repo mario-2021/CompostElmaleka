@@ -21,6 +21,15 @@ hr {
   /* background-image: url("./foto/foto2/Wb1.jpg"); */
 }
 
+/* .nav-bar .card {
+  background-color: transparent;
+  border: none;
+} */
+
+.nav-bar .navbarImg {
+  height: 150px;
+}
+
 .nav-bar .navbarOverlay {
   background-color: rgb(238 248 253 / 50%) !important;
 }
@@ -146,6 +155,7 @@ hr {
   width: fit-content;
   width: -moz-fit-content;
   margin: 3rem auto;
+  line-height: 4rem;
 }
 
 .ourservices .serviceCont {
